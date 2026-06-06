@@ -1,0 +1,262 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Poppins', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  #shopify-section-{{ section.id }} {
+    font-family: 'Poppins', sans-serif;
+  }
+  .bg-cream { background-color: #FDFBF5; }
+  .bg-dark-chocolate { background-color: #3D2B1F; }
+  .text-dark-chocolate { color: #3D2B1F; }
+  .text-light-chocolate { color: #9B7B63; }
+  .border-light-chocolate { border-color: #9B7B63; }
+  .accent-caramel { background-color: #C68E17; }
+  .text-accent-caramel { color: #C68E17; }
+  .benefit-button.active {
+    background-color: #3D2B1F;
+    color: #FDFBF5;
+  }
+  .benefit-button {
+    transition: all 0.3s ease-in-out;
+  }
+  .fade-in {
+    animation: fadeIn 0.7s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<div class="bg-cream text-dark-chocolate">
+
+  <section id="hero" class="min-h-screen flex flex-col justify-center items-center text-center p-4" style="background-image: url('https://placehold.co/1200x800/C68E17/3D2B1F?text=Witmin'); background-size: cover; background-position: center;">
+    <div class="bg-cream bg-opacity-80 p-8 md:p-12 rounded-lg shadow-xl max-w-3xl">
+      <h1 class="text-4xl md:text-6xl font-bold text-dark-chocolate mb-4">The Chocolate You Love, Reinvented.</h1>
+      <p class="text-lg md:text-xl text-light-chocolate mb-8">Indulgence without compromise. Purity without the guilt.</p>
+      <a href="#problem" class="bg-dark-chocolate text-cream font-bold py-3 px-8 rounded-full text-lg hover:bg-light-chocolate transition duration-300">Discover the Revolution</a>
+    </div>
+  </section>
+
+  <section id="company-info" class="py-16 px-4 bg-cream">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-dark-chocolate mb-2">VITSENSE FOODS LLP</h2>
+      <div class="w-16 h-1 mx-auto mt-2 mb-10" style="background-color: #C68E17;"></div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="border border-gray-200 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div class="text-3xl mb-3">📍</div>
+          <h3 class="font-semibold text-dark-chocolate mb-2">Registered Office</h3>
+          <p class="text-light-chocolate text-sm leading-relaxed">802-I, 8th Floor, Victoria Heights<br>Zirakpur, Mohali – 160104<br>Punjab, India</p>
+        </div>
+        <div class="border border-gray-200 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div class="text-3xl mb-3">✉️</div>
+          <h3 class="font-semibold text-dark-chocolate mb-2">Email Us</h3>
+          <p class="text-light-chocolate text-sm"><a href="mailto:admin@vitsense.in" class="hover:text-dark-chocolate transition-colors duration-200">admin@vitsense.in</a></p>
+        </div>
+        <div class="border border-gray-200 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+          <div class="text-3xl mb-3">📞</div>
+          <h3 class="font-semibold text-dark-chocolate mb-2">Call Us</h3>
+          <p class="text-light-chocolate text-sm"><a href="tel:+917666706412" class="hover:text-dark-chocolate transition-colors duration-200">+91 76667 06412</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="problem" class="py-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">The Unspoken Truth About Chocolate</h2>
+      <p class="text-lg text-light-chocolate mb-12 max-w-2xl mx-auto">We all love it, yet we feel a pang of guilt. The heartbreaking truth is, the treat we adore has been compromised by ingredients that don't belong. This section reveals the hidden culprits in most conventional chocolate bars.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="border border-gray-200 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <div class="text-4xl mb-4">⛽</div>
+          <h3 class="text-2xl font-semibold mb-2">Vegetable Oils</h3>
+          <p class="text-light-chocolate">Often used as cheap fillers, they alter the texture and add unnecessary fats, masking the true flavor of cocoa.</p>
+        </div>
+        <div class="border border-gray-200 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <div class="text-4xl mb-4">🍬</div>
+          <h3 class="text-2xl font-semibold mb-2">Refined Sugars</h3>
+          <p class="text-light-chocolate">Mountains of calorie-dense, refined sugars create an unhealthy spike and overpower the delicate notes of real chocolate.</p>
+        </div>
+        <div class="border border-gray-200 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+          <div class="text-4xl mb-4">🧪</div>
+          <h3 class="text-2xl font-semibold mb-2">Artificial Preservatives</h3>
+          <p class="text-light-chocolate">A cocktail of chemicals designed for shelf life, not for your well-being. A moment of joy shouldn't have a list of regrets.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="solution" class="py-20 px-4 bg-dark-chocolate text-cream">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">The Breakthrough: Welcome to Witmin</h2>
+      <p class="text-lg text-gray-300 mb-12 max-w-2xl mx-auto">We asked, "Why can't chocolate be real again?" And then, we created the answer. Witmin is a return to integrity, crafting pure indulgence from ingredients you can trust and understand.</p>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="p-6">
+          <div class="text-5xl mb-4">🍫</div>
+          <h3 class="text-2xl font-semibold mb-2">Pure, Unadulterated Cocoa</h3>
+          <p class="text-gray-400">The rich, complex, beating heart of genuine chocolate. We use only high-quality cocoa beans for a flavor that's deep, authentic, and satisfying.</p>
+        </div>
+        <div class="p-6">
+          <div class="text-5xl mb-4">🌿</div>
+          <h3 class="text-2xl font-semibold mb-2">Naturally Occurring Sugars</h3>
+          <p class="text-gray-400">Sweetness sourced from nature, providing a balanced flavor profile without the synthetic guilt trip or the unhealthy sugar crash.</p>
+        </div>
+        <div class="p-6">
+          <div class="text-5xl mb-4">✨</div>
+          <h3 class="text-2xl font-semibold mb-2">Absolutely ZERO Preservatives</h3>
+          <p class="text-gray-400">Just the pristine goodness of real, fresh ingredients. Our chocolate is a pure expression of nature's finest offerings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="py-20 px-4">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Beyond Delicious: Chocolate That Transforms You</h2>
+        <p class="text-lg text-light-chocolate max-w-2xl mx-auto">Witmin is more than guilt-free; it's a functional food that enhances your well-being. We've infused our bars with essential vitamins and minerals. Click below to explore how our chocolate gives back to your body.</p>
+      </div>
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <div class="w-full md:w-1/3">
+          <div class="flex flex-col gap-4">
+            <button class="benefit-button text-lg w-full text-left font-semibold p-4 border border-gray-200 rounded-lg active" data-benefit="bones">🦴 Stronger Bones</button>
+            <button class="benefit-button text-lg w-full text-left font-semibold p-4 border border-gray-200 rounded-lg" data-benefit="brain">🧠 Sharper Brain</button>
+            <button class="benefit-button text-lg w-full text-left font-semibold p-4 border border-gray-200 rounded-lg" data-benefit="immunity">🛡️ Resilient Immunity</button>
+          </div>
+        </div>
+        <div class="w-full md:w-2/3">
+          <div id="benefit-display" class="bg-white p-8 rounded-lg shadow-lg min-h-[250px] flex flex-col justify-center fade-in"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comparison" class="py-20 px-4 bg-gray-100">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">A Clear Difference</h2>
+        <p class="text-lg text-light-chocolate max-w-2xl mx-auto">The choice is simple when you see it side-by-side. Here's how Witmin redefines what you should expect from your chocolate.</p>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr>
+              <th class="p-4 border-b-2 border-dark-chocolate text-xl font-bold">Feature</th>
+              <th class="p-4 border-b-2 border-dark-chocolate text-xl font-bold">Typical Chocolate</th>
+              <th class="p-4 border-b-2 border-dark-chocolate text-xl font-bold text-accent-caramel">Witmin Chocolate</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-gray-300">
+              <td class="p-4 font-semibold">Core Ingredients</td>
+              <td class="p-4 text-light-chocolate">Cocoa powder, vegetable oils</td>
+              <td class="p-4 font-medium">Pure, unadulterated cocoa</td>
+            </tr>
+            <tr class="border-b border-gray-300">
+              <td class="p-4 font-semibold">Sweetener</td>
+              <td class="p-4 text-light-chocolate">Refined white sugar</td>
+              <td class="p-4 font-medium">Naturally occurring sugars</td>
+            </tr>
+            <tr class="border-b border-gray-300">
+              <td class="p-4 font-semibold">Additives</td>
+              <td class="p-4 text-light-chocolate">Artificial preservatives, fillers</td>
+              <td class="p-4 font-medium">ZERO preservatives or fillers</td>
+            </tr>
+            <tr class="border-b border-gray-300">
+              <td class="p-4 font-semibold">Health Benefits</td>
+              <td class="p-4 text-light-chocolate">None, often detrimental</td>
+              <td class="p-4 font-medium">Rich in essential vitamins & minerals</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-semibold">The Feeling</td>
+              <td class="p-4 text-light-chocolate">A moment of guilt</td>
+              <td class="p-4 font-medium">Pure, elevated indulgence</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta" class="py-20 px-4 bg-dark-chocolate text-cream">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">So, What's the Catch?</h2>
+      <p class="text-xl text-gray-300 mb-8">The only "catch" is the irresistible desire you'll feel for chocolate that's both profoundly delicious and actively good for you.</p>
+      <a href="#" class="bg-cream text-dark-chocolate font-bold py-4 px-10 rounded-full text-xl hover:bg-gray-200 transition duration-300 shadow-lg">Taste The Revolution</a>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const benefitButtons = document.querySelectorAll('.benefit-button');
+    const benefitDisplay = document.getElementById('benefit-display');
+
+    const benefitData = {
+      bones: {
+        icon: '🦴',
+        title: 'For Stronger Bones',
+        text: "Our chocolate is fortified with essential minerals like Calcium and Vitamin D, which work together to support bone density and strength. It's a delightful square that helps support your active life."
+      },
+      brain: {
+        icon: '🧠',
+        title: 'For a Sharper Brain',
+        text: "Infused with Omega-3 and B-vitamins, this decadent bite helps fuel focus, memory, and creativity. It's the perfect treat to nourish your mind and power through your day."
+      },
+      immunity: {
+        icon: '🛡️',
+        title: 'For Resilient Immunity',
+        text: "Packed with antioxidants, Vitamin C, and Zinc, our chocolate helps build your body's natural defenses like an impenetrable shield, protecting you day in and day out."
+      }
+    };
+
+    function updateBenefitDisplay(benefitKey) {
+      const data = benefitData[benefitKey];
+      if (!data) return;
+      benefitDisplay.innerHTML = `
+        <div class="text-center md:text-left fade-in">
+          <div class="text-4xl mb-4">${data.icon}</div>
+          <h3 class="text-2xl font-bold mb-2">${data.title}</h3>
+          <p class="text-light-chocolate text-lg">${data.text}</p>
+        </div>
+      `;
+      benefitButtons.forEach(button => {
+        button.classList.remove('active');
+        if (button.dataset.benefit === benefitKey) button.classList.add('active');
+      });
+    }
+
+    benefitButtons.forEach(button => {
+      button.addEventListener('click', () => updateBenefitDisplay(button.dataset.benefit));
+    });
+
+    updateBenefitDisplay('bones');
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "About Us Content",
+  "settings": [],
+  "presets": [{ "name": "About Us Content" }]
+}
+{% endschema %}
