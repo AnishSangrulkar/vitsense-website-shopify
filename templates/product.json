@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_xbYEqk": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"https://www.amazon.in/Durex-Condoms-Extra-Thin-Count/dp/B07C9WPNG7/ref=sr_1_1_sspa?crid=15QYUIMV1QG6E&dib=eyJ2IjoiMSJ9.nllsTaSN1I6LfIsl26fEKScrVIHBtDl9CddZQ0Ec5aglhJdMijerdvlbwSnec2uQ7ncIfRLiaa7V75cylkO-78_ffV_bqhG4U3j0n0apaXjdAyeEdiBNkbD2SYjvOonVEJqO4i4B2VM8u5a_O34nOt6OV0aq_dhoFeKH40LXiuRhWzlg7PhLq21uiKCa_2ugCEEIbFQ3IrdZMKn8xj7CvT_cgtQQYi4YZQIv-A9jRlriSqJUqed0Ccy-87BnePZBRSuI5i-OVi-3NHEfBGtcchmkvEIs2CrUke4SC2jhByU.KJIZPCykAsUIGJmMU8v_sckHCYzqx0Z9bHpp1Nz0R_Q&dib_tag=se&keywords=condoms&qid=1751479616&sprefix=condom%2Caps%2C280&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1\" target=\"_blank\" style=\"background-color:#ff9900;color:white;padding:10px 20px;border:none;border-radius:5px;text-decoration:none;display:inline-block;font-weight:bold;\">\n  🛒 Buy on Amazon\n</a>"
+          }
+        },
+        "custom_liquid_RDPtyy": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"https://www.flipkart.com/your-product-link\" target=\"_blank\" style=\"background-color:#2874F0;color:white;padding:10px 20px;border:none;border-radius:5px;text-decoration:none;display:inline-block;font-weight:bold;\">\n  🛒 Buy on Flipkart\n</a>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_A9Ngcx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "custom_liquid_xbYEqk",
+        "custom_liquid_RDPtyy",
+        "share",
+        "description",
+        "judge_me_reviews_preview_badge_A9Ngcx"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-2",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "1748717204b18b1e75": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_pNaCcj": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_pNaCcj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "1748717204b18b1e75"
+  ]
+}

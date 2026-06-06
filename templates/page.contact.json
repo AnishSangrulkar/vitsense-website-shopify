@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_LA3x3y": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_a9KdLq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact  US",
+            "heading_size": "h0"
+          }
+        },
+        "text_yqzRqL": {
+          "type": "text",
+          "settings": {
+            "text": "Have a Query? Fill out the form below to receive a call back!!",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a9KdLq",
+        "text_yqzRqL"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_search_1751460862351.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_LA3x3y",
+    "form"
+  ]
+}

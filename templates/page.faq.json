@@ -1,0 +1,161 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_zdQ6Vp": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YBqXhi": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>FAQ</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YBqXhi"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ceramic-bunny-and-chocolate-egg.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "collapsible_content_UCpcbQ": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_EPDK8V": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Witmin different from other brands?",
+            "icon": "leaf",
+            "row_content": "<p>Witmin is more than guilt-free; it's a functional food that enhances your well-being. We've infused our bars with essential vitamins and minerals.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EH6Lrr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I place bulk orders?",
+            "icon": "leaf",
+            "row_content": "<p>Please fill out the form for bulk orders or you can contact us</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_thhMdF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your chocolates suitable for dietary restrictions?",
+            "icon": "leaf",
+            "row_content": "<p>We offer variety of chocolates. We do not include vegetable oil, artificial preservatives, refined sugars. It is recommended to read the specific proPlease refer to individual product descriptions for specific allergen information.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CE3mU6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I use pop coins?",
+            "icon": "leaf",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_EPDK8V",
+        "collapsible_row_EH6Lrr",
+        "collapsible_row_thhMdF",
+        "collapsible_row_CE3mU6"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Get your queries answered here",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_aLWqMP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JbewDi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Have more questions?",
+            "heading_size": "h2"
+          }
+        },
+        "text_KKGDji": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>We are here to help. If you couldn't find the information you are looking for, our team is eager to assist you. Please reach out to us directly</h6>"
+          }
+        },
+        "button_XFxc3x": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JbewDi",
+        "text_KKGDji",
+        "button_XFxc3x"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_zdQ6Vp",
+    "collapsible_content_UCpcbQ",
+    "rich_text_aLWqMP"
+  ]
+}

@@ -1,0 +1,303 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1b7f9619-4cab-4745-9f40-0ae42e3bc0af",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/May_17_2025_10_00_45_PM.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1b7f9619-4cab-4745-9f40-0ae42e3bc0af"
+          }
+        },
+        "slide_hxfdJM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_May_17_2025_09_49_35_PM.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1b7f9619-4cab-4745-9f40-0ae42e3bc0af"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "slide_hxfdJM"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured products",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-61afe3f3-4f4f-4312-b50f-65e8666d0271",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 3,
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-4a0e33e5-6939-44bd-a941-883e84859849",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "featured_blog_7YGYAc": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "",
+        "post_limit": 3,
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_LqrDFK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M4JXRH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bite-sized stories on health, ingredients & everything at Witmin.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M4JXRH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-4a0e33e5-6939-44bd-a941-883e84859849",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "custom_liquid_Jxq7AQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Instagram Reel Carousel</title>\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      font-family: Arial, sans-serif;\n      background: #f9f9f9;\n    }\n\n    .carousel-section {\n      padding: 40px 0;\n      text-align: center;\n    }\n\n    .carousel-title {\n      font-size: 1.25rem;\n      font-weight: 600;\n      margin-bottom: 20px;\n    }\n\n    .reel-carousel-wrapper {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      position: relative;\n      overflow: hidden;\n      width: 100%;\n      max-width: 1200px;\n      margin: 0 auto;\n      height: 500px;\n      perspective: 1000px;\n    }\n\n    .reel-thumbnail {\n      position: absolute;\n      width: 250px;\n      height: 444px;\n      border-radius: 14px;\n      background: #000;\n      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);\n      overflow: hidden;\n      cursor: pointer;\n      transition: all 1s ease-in-out;\n    }\n\n    .reel-thumbnail video {\n      width: 100%;\n      height: 100%;\n      object-fit: cover;\n    }\n\n    .reel-thumbnail.active {\n      transform: translateX(0) scale(1);\n      z-index: 3;\n    }\n\n    .reel-thumbnail.prev {\n      transform: translateX(-270px) scale(0.8) rotateY(15deg);\n      opacity: 0.8;\n      z-index: 2;\n    }\n\n    .reel-thumbnail.next {\n      transform: translateX(270px) scale(0.8) rotateY(-15deg);\n      opacity: 0.8;\n      z-index: 2;\n    }\n\n    .reel-thumbnail.hidden {\n      transform: translateX(800px) scale(0);\n      opacity: 0;\n      z-index: 1;\n    }\n\n    @media (max-width: 768px) {\n      .reel-thumbnail {\n        width: 180px;\n        height: 320px;\n      }\n\n      .reel-thumbnail.prev {\n        transform: translateX(-200px) scale(0.8) rotateY(15deg);\n      }\n\n      .reel-thumbnail.next {\n        transform: translateX(200px) scale(0.8) rotateY(-15deg);\n      }\n    }\n  </style>\n</head>\n<body>\n  <section class=\"carousel-section\">\n    <div class=\"carousel-title\">\n      🎥 These fun, informative Reels are straight from Witmin's official Instagram page\n    </div>\n    <div class=\"reel-carousel-wrapper\" id=\"carousel\">\n      <div\n        class=\"reel-thumbnail\"\n        data-embed=\"https://www.instagram.com/reel/DLz6ZVDvRd9/\"\n      >\n        <video autoplay muted loop playsinline>\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/10c53b758e714bbfa9f63c1700ea909b.mp4\" type=\"video/mp4\" />\n        </video>\n      </div>\n      <div\n        class=\"reel-thumbnail\"\n        data-embed=\"https://www.instagram.com/reel/DLKibtlvZyq/\"\n      >\n        <video autoplay muted loop playsinline>\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/16e75cf1f77a4a20b87374c635d070c9.mp4\" type=\"video/mp4\" />\n        </video>\n      </div>\n      <div\n        class=\"reel-thumbnail\"\n        data-embed=\"https://www.instagram.com/reel/DLpqwl7PtR0/\"\n      >\n        <video autoplay muted loop playsinline>\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/8260297a5ffc490794055b54a982366f.mp4\" type=\"video/mp4\" />\n        </video>\n      </div>\n      <div\n        class=\"reel-thumbnail\"\n        data-embed=\"https://www.instagram.com/reel/DMAlOp9vKSm/\"\n      >\n        <video autoplay muted loop playsinline>\n          <source src=\"https://cdn.shopify.com/videos/c/o/v/3a99e81211354cc6848b86872ddd0679.mp4\" type=\"video/mp4\" />\n        </video>\n      </div>\n    </div>\n  </section>\n\n  <script>\n    const carousel = document.getElementById('carousel');\n    let index = 0;\n    let items = carousel.querySelectorAll('.reel-thumbnail');\n\n    function updateCarousel() {\n      items.forEach((item, i) => {\n        item.classList.remove('active', 'prev', 'next', 'hidden');\n\n        if (i === index) {\n          item.classList.add('active');\n        } else if (i === (index + 1) % items.length) {\n          item.classList.add('next');\n        } else if (i === (index - 1 + items.length) % items.length) {\n          item.classList.add('prev');\n        } else {\n          item.classList.add('hidden');\n        }\n      });\n    }\n\n    function nextSlide() {\n      index = (index + 1) % items.length;\n      updateCarousel();\n    }\n\n    let startX = 0;\n    let endX = 0;\n\n    carousel.addEventListener('touchstart', (e) => {\n      startX = e.changedTouches[0].clientX;\n    });\n\n    carousel.addEventListener('touchend', (e) => {\n      endX = e.changedTouches[0].clientX;\n      if (startX - endX > 50) {\n        nextSlide();\n      } else if (endX - startX > 50) {\n        index = (index - 1 + items.length) % items.length;\n        updateCarousel();\n      }\n    });\n\n    // Click to open reel in new tab\n    items.forEach((item) => {\n      item.addEventListener('click', () => {\n        const url = item.getAttribute('data-embed');\n        window.open(url, '_blank');\n      });\n    });\n\n    updateCarousel();\n    setInterval(() => {\n      nextSlide();\n    }, 5000); // ⏱ 3s pause + 1s transition built in via CSS\n  </script>\n</body>\n</html>",
+        "color_scheme": "scheme-4a0e33e5-6939-44bd-a941-883e84859849",
+        "padding_top": 16,
+        "padding_bottom": 52
+      }
+    },
+    "17479260122f67d8ec": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expertly curated, affordably priced to fit your every need.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Witmin_mockup_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1b7f9619-4cab-4745-9f40-0ae42e3bc0af",
+        "color_scheme": "scheme-1b7f9619-4cab-4745-9f40-0ae42e3bc0af",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop new arrivals",
+            "heading_size": "h2"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop all",
+            "button_link": "shopify://collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Witmin_mockup_1.jpg",
+        "height": "small",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1b7f9619-4cab-4745-9f40-0ae42e3bc0af",
+        "color_scheme": "scheme-1b7f9619-4cab-4745-9f40-0ae42e3bc0af",
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "1748717595f525a32e": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_RrqR7j": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_RrqR7j"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "rich-text",
+    "slideshow",
+    "rich-text-1",
+    "featured-collection",
+    "featured_blog_7YGYAc",
+    "rich_text_LqrDFK",
+    "custom_liquid_Jxq7AQ",
+    "17479260122f67d8ec",
+    "image-with-text",
+    "image-with-text-1",
+    "1748717595f525a32e"
+  ]
+}
