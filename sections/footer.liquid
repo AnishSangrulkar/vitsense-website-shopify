@@ -250,6 +250,33 @@
     {%- endunless -%}
   {%- endif -%}
 
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'company_information' -%}
+      <div
+        class="footer__company-info page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        {{ block.shopify_attributes }}
+      >
+        <div class="footer__company-info-inner caption">
+          {%- if block.settings.company_name != blank -%}
+            <p><strong>Company Name:</strong> {{ block.settings.company_name | escape }}</p>
+          {%- endif -%}
+          {%- if block.settings.address != blank -%}
+            <p><strong>Registered Office:</strong> {{ block.settings.address | escape | newline_to_br }}</p>
+          {%- endif -%}
+          {%- if block.settings.fssai_license != blank -%}
+            <p><strong>FSSAI License No:</strong> {{ block.settings.fssai_license | escape }}</p>
+          {%- endif -%}
+          {%- if block.settings.email != blank -%}
+            <p><strong>Email:</strong> <a href="mailto:{{ block.settings.email | escape }}">{{ block.settings.email | escape }}</a></p>
+          {%- endif -%}
+          {%- if block.settings.phone != blank -%}
+            <p><strong>Phone:</strong> <a href="tel:{{ block.settings.phone | remove: ' ' | remove: '-' }}">{{ block.settings.phone | escape }}</a></p>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+
   <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -298,28 +325,6 @@
       </div>
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
-      <div class="footer__company-details">
-  <p><strong>Company Name:</strong> YOUR COMPANY NAME PRIVATE LIMITED</p>
-
-  <p>
-    <strong>Registered Office:</strong><br>
-    FULL REGISTERED OFFICE ADDRESS
-  </p>
-
-  <p>
-    <strong>FSSAI License No:</strong> XXXXXXXXXXXXXX
-  </p>
-
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:support@yourdomain.com">support@yourdomain.com</a>
-  </p>
-
-  <p>
-    <strong>Phone:</strong>
-    <a href="tel:+919999999999">+91 99999 99999</a>
-  </p>
-</div>
       <div class="footer__copyright caption">
         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
@@ -441,6 +446,43 @@
             }
           ],
           "default": "center"
+        }
+      ]
+    },
+    {
+      "type": "company_information",
+      "name": "Company Information",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "company_name",
+          "label": "Company Name",
+          "default": "Your Company Name Private Limited"
+        },
+        {
+          "type": "textarea",
+          "id": "address",
+          "label": "Registered Office Address",
+          "default": "123, Business Park, City, State - 000000"
+        },
+        {
+          "type": "text",
+          "id": "fssai_license",
+          "label": "FSSAI License Number",
+          "default": "XXXXXXXXXXXXXX"
+        },
+        {
+          "type": "text",
+          "id": "email",
+          "label": "Email Address",
+          "default": "support@yourdomain.com"
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "label": "Phone Number",
+          "default": "+91 99999 99999"
         }
       ]
     }

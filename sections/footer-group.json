@@ -46,6 +46,19 @@
     },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "company_info": {
+          "type": "company_information",
+          "settings": {
+            "company_name": "VITSENSE FOODS LLP",
+            "address": "802-I 8TH FLR, VICTORIA HEIGHTS,ZIRAKPUR, Dhakaoli, Mohali, Derabassi, Mohali- 160104, Punjab, India",
+            "fssai_license": "",
+            "email": "swaraj@vitsense.in",
+            "phone": "+91 76667 06412"
+          }
+        }
+      },
+      "block_order": ["company_info"],
       "settings": {
         "color_scheme": "scheme-61afe3f3-4f4f-4312-b50f-65e8666d0271",
         "newsletter_enable": false,

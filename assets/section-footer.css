@@ -488,6 +488,36 @@
   }
 }
 
+.footer__company-info {
+  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  text-align: center;
+}
+
+.footer__company-info-inner {
+  display: inline-block;
+  max-width: 64rem;
+  line-height: 1.8;
+}
+
+.footer__company-info-inner p {
+  margin: 0.3rem 0;
+}
+
+.footer__company-info-inner a {
+  color: rgba(var(--color-foreground), 0.75);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 750px) {
+  .footer__company-info-inner a:hover {
+    color: rgb(var(--color-foreground));
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+}
+
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
   @media screen and (max-width: 749px) {
